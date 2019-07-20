@@ -7,3 +7,12 @@ html{
     box-sizing: inherit;
 }
 
+.site-navigation li{
+
+display: inline-block;
+}
+/*
+.site-navigation{
+    margin: 0;
+    padding: 0;
+}
