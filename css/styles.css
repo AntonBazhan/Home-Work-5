@@ -85,3 +85,118 @@ text-decoration: none;
 .logo::first-letter {
     font-weight: bold;
     color: #1abc9c;
+}
+    .slide::before {
+        width: 1650px;
+        height: 600px;
+        background-color: #000002;
+        opacity: 0.52;
+    } 
+    .title{
+    text-align: center;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    } 
+
+    .title::after {
+        content: "";
+        display: block;
+        text-align: center;
+        width: 164px;
+        height: 7px;
+        background-color: #1abc9c;
+        margin: 32px auto 0;
+    }
+    
+.products.container {
+    width: 1150px;
+    background-color: transparent;
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 15px 100px;
+    width: 250px;
+    height: 320px;
+    background-color: #ffffff;
+}
+
+.product-image {
+    margin: 0;
+    width: 250px;
+    height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.name {
+    width: 187px;
+    height: 40px;
+    color: white;
+    padding-left: 13px;
+    background-color: #323232;
+    line-height: 40px;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    text-align: left;
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.price {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #323232;
+    color: white;
+    opacity: 0.44;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.product:hover .name {
+    background-color: #1abc9c;
+}
+.product:hover .price {
+    background-color: #1abc9c;
+    opacity: 0.44;
+}
+/*
+h3 {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 250px;
+    height: 40px;
+    background-color: #323232;
+}
+*/
+.footer {
+    width: 1656px;
+    padding-top: 38px;
+    padding-bottom: 33px; 
+    background-color: #323232;
+    color: #fefefe;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    vertical-align: text-bottom;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+.company-link {
+    text-decoration: none;
+    color: #46bfa9;
