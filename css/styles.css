@@ -1,31 +1,38 @@
+/* Общие настройки html */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 img {
-   display: block;
-    max-width: 100%;
-    height: auto;   
+ display: block;
+  max-width: 100%;
+  height: auto;   
 }
 
 .container{
-    width: 1635px;
-    margin: 0 auto; 
+  width: 1635px;
+  margin: 0 auto; 
 
 }
 
 .page-header{
-    width: 1635px;
-    height: 90px;  
+  width: 1635px;
+  height: 90px;  
 }
 
 .page nav{
-    padding: 32px 0;
+  padding: 32px 0;
 }
 
 .site-navigation li{
@@ -34,7 +41,7 @@ display: inline-block;
 }
 
 .site-navigation li:not(:last-child){
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 .site-navigation{
@@ -49,154 +56,154 @@ text-align: right;
 
 .menu-item a {
 text-decoration: none;
- text-transform: uppercase;
- font-size: 14px;
- font-family:'Open Sans', sans-serif;
- font-weight: bold;
- color: #0f0101;
- 
+text-transform: uppercase;
+font-size: 14px;
+font-family:'Open Sans', sans-serif;
+font-weight: bold;
+color: #0f0101;
+
 }
 
 .menu-item a:hover {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 .menu.menu-item a:active {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 .menu-item a:focus {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 
- .logo{
+.logo{
 
- display: inline-block;
- text-transform: uppercase;
- font-size: 30px;
- color: #555252;
- text-decoration: none;
- font-family: 'Roboto', sans-serif;
- font-weight: lighter;
- vertical-align: middle; 
- width: 80px;
- margin-left: 260px;
- margin-right: 560px;
+display: inline-block;
+text-transform: uppercase;
+font-size: 30px;
+color: #555252;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+vertical-align: middle; 
+width: 80px;
+margin-left: 260px;
+margin-right: 560px;
 }
 
 .logo::first-letter {
-    font-weight: bold;
-    color: #1abc9c;
+  font-weight: bold;
+  color: #1abc9c;
 }
-    .slide::before {
-        width: 1650px;
-        height: 600px;
-        background-color: #000002;
-        opacity: 0.52;
-    } 
-    .title{
-    text-align: center;
-    color: #515151;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    text-transform: uppercase;
-    } 
+  .slide::before {
+      width: 1650px;
+      height: 600px;
+      background-color: #000002;
+      opacity: 0.52;
+  } 
+  .title{
+  text-align: center;
+  color: #515151;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  text-transform: uppercase;
+  } 
 
-    .title::after {
-        content: "";
-        display: block;
-        text-align: center;
-        width: 164px;
-        height: 7px;
-        background-color: #1abc9c;
-        margin: 32px auto 0;
-    }
-    
+  .title::after {
+      content: "";
+      display: block;
+      text-align: center;
+      width: 164px;
+      height: 7px;
+      background-color: #1abc9c;
+      margin: 32px auto 0;
+  }
+  
 .products.container {
-    width: 1150px;
-    background-color: transparent;
+  width: 1150px;
+  background-color: transparent;
 }
 
 .product {
-    display: inline-block;
-    vertical-align: top;
-    margin: 15px 15px 100px;
-    width: 250px;
-    height: 320px;
-    background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 15px 100px;
+  width: 250px;
+  height: 320px;
+  background-color: #ffffff;
 }
 
 .product-image {
-    margin: 0;
-    width: 250px;
-    height: 280px;
-    overflow: hidden;
-    object-fit: cover;
+  margin: 0;
+  width: 250px;
+  height: 280px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .name {
-    width: 187px;
-    height: 40px;
-    color: white;
-    padding-left: 13px;
-    background-color: #323232;
-    line-height: 40px;
-    display: inline-block;
-    float: left;
-    vertical-align: top;
-    text-align: left;
-    font-family: "Roboto - Black", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
+  width: 187px;
+  height: 40px;
+  color: white;
+  padding-left: 13px;
+  background-color: #323232;
+  line-height: 40px;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  text-align: left;
+  font-family: "Roboto - Black", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .price {
-    width: 50px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #323232;
-    color: white;
-    opacity: 0.44;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    font-family: "Roboto - Black", sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #323232;
+  color: white;
+  opacity: 0.44;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  font-family: "Roboto - Black", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .product:hover .name {
-    background-color: #1abc9c;
+  background-color: #1abc9c;
 }
 .product:hover .price {
-    background-color: #1abc9c;
-    opacity: 0.44;
+  background-color: #1abc9c;
+  opacity: 0.44;
 }
 /*
 h3 {
-    display: inline-block;
-    vertical-align: bottom;
-    width: 250px;
-    height: 40px;
-    background-color: #323232;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 250px;
+  height: 40px;
+  background-color: #323232;
 }
 */
 .footer {
-    width: 1656px;
-    padding-top: 38px;
-    padding-bottom: 33px; 
-    background-color: #323232;
-    color: #fefefe;
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
-    vertical-align: text-bottom;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: -0.32px;
+  width: 1656px;
+  padding-top: 38px;
+  padding-bottom: 33px; 
+  background-color: #323232;
+  color: #fefefe;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  vertical-align: text-bottom;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.32px;
 }
 
 .company-link {
-    text-decoration: none;
-    color: #46bfa9;
+  text-decoration: none;
+  color: #46bfa9;
