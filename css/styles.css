@@ -23,11 +23,12 @@ img {
 .container{
   width: 1635px;
   margin: 0 auto; 
-
+  background: white;
+  background-color: transparent;
 }
 
 .page-header{
-  width: 1635px;
+  width: 1630px;
   height: 90px;  
 }
 
@@ -95,15 +96,50 @@ margin-right: 560px;
   font-weight: bold;
   color: #1abc9c;
 }
-
+/*
   .slide::before {
       width: 1650px;
       height: 600px;
       background-color: #000002;
       opacity: 0.52;
-  } 
+  } */
 
 /*Слайдер*/
+.wrapper-slider{
+  /*width: 1110px;
+  max-width: 1110px; */
+  min-height: 600px;
+  background-color: #e9f0fd; 
+}
+
+
+.button-slider{
+  z-index: 2;
+  width: 105px;
+  height: 105px;
+  background-color: #4ec6ab;
+  opacity: 0.65;
+  border: 0px;
+  position: absolute;
+  top: 225px;
+  display: inline-block;
+}
+
+.button-slider-right{
+  right: 5px;
+}
+
+.button-slider-left{
+  left: 5px; 
+}
+
+.button-slider img {
+  /*padding-top: 30%;*/
+  height: 38px;
+  width: 22px;
+  object-fit: cover;
+  display: inline-block;
+}
 
 /* Основной раздел: заголовок */
 
@@ -151,7 +187,7 @@ margin-right: 560px;
 }
 
 .name {
-  width: 187px;
+  width: 200px;
   height: 40px;
   color: white;
   padding-left: 13px;
