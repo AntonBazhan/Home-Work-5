@@ -7,6 +7,7 @@
 
 html{
   box-sizing: border-box;
+  overflow-x:hidden;
 }
 *,
 *::before,
@@ -32,6 +33,7 @@ img {
   background-color: transparent;
   display: inline-block;
   text-align: center;
+  
 }
 
 
@@ -92,28 +94,30 @@ font-weight: lighter;
 vertical-align: middle; 
 width: 80px;
 margin-left: 260px;
-margin-right: 560px;
+margin-right: 500px;
 }
 
 .logo::first-letter {
   font-weight: bold;
   color: #1abc9c;
 }
-/*
-  .slide::before {
-      width: 1650px;
-      height: 600px;
-      background-color: #000002;
-      opacity: 0.52;
-  } 
-*/
+
+
 /*Слайдер*/
 
 .wrapper-slider{
-  min-height: 670px;
+width: 1635px;
+min-width: 1635px;
+  min-height: 600px;
   background-color: #e9f0fd;  
+   margin: auto;
+   
 }
 
+.slide {
+  position: relative;
+  object-fit: cover;
+}
 .slide-image img{
   height: 600;
   width: 100%;
@@ -121,18 +125,14 @@ margin-right: 560px;
   
 } 
 
-.slide-image {
-  position: relative;
-  
-}
-
 .slide-title {
   z-index: 2;
-  width: 778px;
+  width: 740px;
+  height: 100px;
   position: absolute;
   top: 270px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -70%);
   color: white;
   opacity: 1;
   text-align: left;
@@ -142,7 +142,7 @@ margin-right: 560px;
   margin: 0;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 82px;
 }
@@ -155,16 +155,13 @@ margin-right: 560px;
   line-height: 54px;
 }
 
-
-
-
 .button-slider{
   z-index: 2;
   width: 105px;
   height: 105px;
   background-color: #4ec6ab;
   opacity: 0.65;
-  border: 0px;
+  border: none;
   position: absolute;
   top: 225px;
   display: inline-block;
@@ -174,11 +171,11 @@ margin-right: 560px;
 }
 
 .button-slider-right{
-  right: 5px;
+  right: 350px;
 }
 
 .button-slider-left{
-  left: 5px; 
+  left: 265px; 
 }
 
 .button-slider img {
@@ -189,6 +186,7 @@ margin-right: 560px;
   display: inline-block;
 
 }
+
 
 /* Основной раздел: заголовок */
 
@@ -263,6 +261,7 @@ margin-right: 560px;
 .product:hover .cart {
     display: block;
 }
+
 
 .heart {
     z-index: 2;
