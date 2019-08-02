@@ -434,13 +434,12 @@ min-width: 1635px;
   padding-bottom: 33px; 
   background-color: #323232;
   color: #fefefe;
-  font-family: "Open", sans-serif;
+  font-family: 'Open', sans-serif;
   text-align: center;
   vertical-align: text-bottom;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: -0.32px;
 }
 
 .company-link {
